@@ -1,7 +1,8 @@
 //
 //  ViewController.swift
 //  TestAnimation
-//
+//   git 并不会实时的跟踪你的文件 只有你明确让他记录你的文件时，他才会把指定的文件的当前状态记录到仓库中去，所有一般当我们修改完文件的时候需要先git add fileName1 fileName2 如果你嫌麻烦的话可以直接git add -A 添加所有的文件到暂存的区域 当添加完之后 你可以用 git commit 到编辑窗口里面输入备注完成提交  以上的步骤如果嫌麻烦的话可以直接git commit -am 备注 完成提交
+//   其实git add 命令只是把指定的文件的当前状态添加到暂存区域，并不是代表一个文件一旦添加 就会一直存在于每个版本中
 //  Created by tujia on 16/7/7.
 //  Copyright © 2016年 杨超. All rights reserved.
 //
@@ -14,6 +15,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
         self.view.backgroundColor = UIColor.whiteColor()
         aa.frame = CGRectMake(100, 100, 100, 50)   // CircleProgressView(frame: CGRectMake(100,100,100,50))
         aa.backgroundColor = UIColor.redColor()
