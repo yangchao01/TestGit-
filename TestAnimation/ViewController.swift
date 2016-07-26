@@ -8,6 +8,8 @@
 //  Copyright © 2016年 杨超. All rights reserved.
 //
 
+
+
 import UIKit
 
 class ViewController: UIViewController {
@@ -17,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
+        //测试是否可以推到testBranch上面
         self.view.backgroundColor = UIColor.whiteColor()
         aa.frame = CGRectMake(100, 100, 100, 50)   // CircleProgressView(frame: CGRectMake(100,100,100,50))
         aa.backgroundColor = UIColor.redColor()
