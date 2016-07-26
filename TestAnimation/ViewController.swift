@@ -4,6 +4,7 @@
 //   git 并不会实时的跟踪你的文件 只有你明确让他记录你的文件时，他才会把指定的文件的当前状态记录到仓库中去，所有一般当我们修改完文件的时候需要先git add fileName1 fileName2 如果你嫌麻烦的话可以直接git add -A 添加所有的文件到暂存的区域 当添加完之后 你可以用 git commit 到编辑窗口里面输入备注完成提交  以上的步骤如果嫌麻烦的话可以直接git commit -am 备注 完成提交
 //   其实git add 命令只是把指定的文件的当前状态添加到暂存区域，并不是代表一个文件一旦添加 就会一直存在于每个版本中 如果你添加一个文件后又对这个文件进行了修改 当你commit 的时候只会commit这个文件添加时候的状态 不会把之后的修改也commit进去 除非你再次添加 并提交
 // 新加了一个备注
+
 //  Created by tujia on 16/7/7.
 //  Copyright © 2016年 杨超. All rights reserved.
 //
@@ -18,7 +19,6 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        
         //测试是否可以推到testBranch上面
         self.view.backgroundColor = UIColor.whiteColor()
         aa.frame = CGRectMake(100, 100, 100, 50)   // CircleProgressView(frame: CGRectMake(100,100,100,50))
@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         aa.setprogressColor(UIColor.orangeColor())
         aa.setprogress(0.5)
         aa.setProgressWidth(20)
-        
+        // 测试基于本地分支简历分支与其他分支的影响
         let button = UIButton(frame: CGRectMake(100,100,50,30))
         button.addTarget(self, action: #selector(ViewController.setProgress), forControlEvents: UIControlEvents.TouchUpInside)
         button.backgroundColor = UIColor.blueColor()
