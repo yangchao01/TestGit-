@@ -27,7 +27,6 @@ class ViewController: UIViewController {
         button.addTarget(self, action: #selector(ViewController.setProgress), forControlEvents: UIControlEvents.TouchUpInside)
         button.backgroundColor = UIColor.blueColor()
         self.view.addSubview(button)
-        
     }
     
     func setProgress() {
