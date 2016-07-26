@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
+        //测试是否可以推到testBranch上面
         self.view.backgroundColor = UIColor.whiteColor()
         aa.frame = CGRectMake(100, 100, 100, 50)   // CircleProgressView(frame: CGRectMake(100,100,100,50))
         aa.backgroundColor = UIColor.redColor()
