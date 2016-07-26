@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         aa.setprogressColor(UIColor.orangeColor())
         aa.setprogress(0.5)
         aa.setProgressWidth(20)
-        
+        // 测试基于本地分支简历分支与其他分支的影响
         let button = UIButton(frame: CGRectMake(100,100,50,30))
         button.addTarget(self, action: #selector(ViewController.setProgress), forControlEvents: UIControlEvents.TouchUpInside)
         button.backgroundColor = UIColor.blueColor()
