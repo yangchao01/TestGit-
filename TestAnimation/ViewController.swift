@@ -10,7 +10,7 @@
 //
 
 
-//hahahha
+//hahahgit ha
 import UIKit
 
 class ViewController: UIViewController {
@@ -40,15 +40,12 @@ class ViewController: UIViewController {
         UIView.animateWithDuration(20.0) {
             self.aa.setprogress(1)
         }
-
-        
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
 
@@ -62,7 +59,6 @@ class CircleProgressView: UIView {
     var progressColor : UIColor?
     var progress : CGFloat?
     var progressWidth : CGFloat?
-    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
