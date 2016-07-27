@@ -40,15 +40,12 @@ class ViewController: UIViewController {
         UIView.animateWithDuration(20.0) {
             self.aa.setprogress(1)
         }
-
-        
     }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
 
@@ -62,7 +59,6 @@ class CircleProgressView: UIView {
     var progressColor : UIColor?
     var progress : CGFloat?
     var progressWidth : CGFloat?
-    
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -94,13 +90,11 @@ class CircleProgressView: UIView {
     }
     
     func setProgressWidth(progressWidth:CGFloat) {
-        
         self.progressWidth = progressWidth
         trackLayer?.lineWidth = self.progressWidth!
         self.progressLayer?.lineWidth = self.progressWidth!
         self.setTrack()
         self.setProgress()
-        
     }
     
     func settrackColor(trackColor:UIColor) {
@@ -112,7 +106,6 @@ class CircleProgressView: UIView {
     }
     
     func setprogress(progress:CGFloat) {
-        
         self.progress = progress
         //self.setProgress()
     }
