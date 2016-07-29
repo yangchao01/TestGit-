@@ -44,7 +44,7 @@ class ViewController: UIViewController {
     
     
     override func didReceiveMemoryWarning() { //dshfsdfsdfsdf
-        super.didReceiveMemoryWarning()
+        super.didReceiveMemoryWarning()  //肯定会冲突
         // Dispose of any resources that can be recreated.
     }
 }
