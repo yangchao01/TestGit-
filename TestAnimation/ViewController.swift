@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         self.view.addSubview(button)
     }
     
-    func setProgress() {
+    func setProgress() { //我加了标记哈
         self.aa.setprogress(0.5)
         UIView.animateWithDuration(20.0) {
             self.aa.setprogress(1)
