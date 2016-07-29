@@ -48,7 +48,6 @@ class ViewController: UIViewController {
     }
 }
 
-
 class CircleProgressView: UIView {
     
     var trackLayer : CAShapeLayer?
