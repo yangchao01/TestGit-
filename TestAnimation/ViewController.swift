@@ -40,17 +40,12 @@ class ViewController: UIViewController {
         UIView.animateWithDuration(20.0) {
             self.aa.setprogress(1)
         }
-
-        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
-
 
 class CircleProgressView: UIView {
     
