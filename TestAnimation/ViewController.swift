@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         }
     }
     override func didReceiveMemoryWarning() { //dshfsdfsdfsdf
-        super.didReceiveMemoryWarning()  //肯定会冲
+        super.didReceiveMemoryWarning()  //肯定会gi
         // Dispose of any resources that can be recreated.
     }
 }
