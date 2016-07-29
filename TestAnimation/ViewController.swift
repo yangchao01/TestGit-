@@ -41,7 +41,7 @@ class ViewController: UIViewController {
             self.aa.setprogress(1)
         }
     }
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning() { //dshfsdfsdfsdf
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
